@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features="src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@hotel",
+        tags = "@Editor",
         dryRun = true
 )
 public class Runner {
@@ -17,6 +17,11 @@ public class Runner {
     //dryRun=false yazildiginda yukarida belirlenen tag ile etiketlenen tüm senaryolari sirasi ile calistirir
     //dryrun=true dedigimizde ise eksik stepler olup olmadigini kontrol eder
     // ve varsa bize eksik stepleri rapor eder
+
+    //features ve glue olarak specific bir class veya feature dosyasini degil
+    // tum klasor ve package i sectik
+    //golayisi ile stepdefinitions package'i hangi class da olursa olsun
+    //işimize yarayan bir step definition varsa rahatlikla kullanabiliriz
 
 
 }

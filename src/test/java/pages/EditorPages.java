@@ -26,7 +26,7 @@ public class EditorPages {
     public WebElement extensionBox;
     @FindBy(xpath="//input[@id='DTE_Field_start_date']")
     public WebElement dateBox;
-    @FindBy(xpath="/input[@id='DTE_Field_salary']")
+    @FindBy(xpath="//input[@id='DTE_Field_salary']")
     public WebElement salary;
     @FindBy(css = "[class=\"btn\"]")
     public  WebElement createButonElement;

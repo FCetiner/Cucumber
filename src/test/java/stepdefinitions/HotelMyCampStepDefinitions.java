@@ -14,6 +14,7 @@ public class HotelMyCampStepDefinitions {
     public void login_linkine_tiklar() {
         hmcPages.mainPageLoginLinki.click();
     }
+
     @Then("kullanici adi olarak {string} girer")
     public void kullanici_adi_olarak_girer(String kullaniciTipi) {
         hmcPages.usernameTextBox.sendKeys(ConfigReader.getProperty(kullaniciTipi));

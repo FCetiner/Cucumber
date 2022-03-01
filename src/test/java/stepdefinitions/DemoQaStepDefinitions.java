@@ -12,7 +12,7 @@ public class DemoQaStepDefinitions {
     public void will_enable_seconds_butonunun_enable_olmasini_bekleyin(Integer int1) {
         ReusableMethods.waitForClickablility(demoQaPage.willEnable5SecondElement,15);
     }
-    @Then("Will enable {int} seconds” butonunun enable oldugunu test edin")
+    @Then("Will enable {int} seconds”butonunun enable oldugunu test edin")
     public void will_enable_seconds_butonunun_enable_oldugunu_test_edin(Integer int1) {
         Assert.assertTrue(demoQaPage.willEnable5SecondElement.isEnabled());
     }

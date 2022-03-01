@@ -25,7 +25,7 @@ public class AmazonStepDefinitions {
     }
 
     @Then("sonuclarin iPhone icerdigini test eder")
-    public void sonuclarin_ıphone_icerdigini_test_eder() {
+    public void sonuclarin_iphone_icerdigini_test_eder() {
         String sonucYazisiStr= amazonPages.sonucYazisiElementi.getText();
         Assert.assertTrue(sonucYazisiStr.contains("iPhone"));
     }

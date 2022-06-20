@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="271.519">
-    <testcase classname="US1002 Background ile amazon search testi" name="TC02_Amazon iPhone Search Testi" time="115.748">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="229.419">
+    <testcase classname="US1002 Background ile amazon search testi" name="TC02_Amazon iPhone Search Testi" time="105.617">
         <system-out>
             <![CDATA[Given kullanici amazon sayfasina gider......................................passed
 And iPhone icin arama yapar.................................................passed
@@ -8,7 +8,7 @@ Then sonuclarin iPhone icerdigini test eder.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1002 Background ile amazon search testi" name="TC02_Amazon tea pot Search Testi" time="75.616">
+    <testcase classname="US1002 Background ile amazon search testi" name="TC02_Amazon tea pot Search Testi" time="102.386">
         <system-out>
             <![CDATA[Given kullanici amazon sayfasina gider......................................passed
 And tea pot icin arama yapar................................................passed
@@ -16,7 +16,7 @@ Then sonuclarin tea pot icerdigini test eder................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1002 Background ile amazon search testi" name="TC02_Amazon flower Search Testi" time="78.194">
+    <testcase classname="US1002 Background ile amazon search testi" name="TC02_Amazon flower Search Testi" time="19.633">
         <system-out>
             <![CDATA[Given kullanici amazon sayfasina gider......................................passed
 And flower icin arama yapar.................................................passed

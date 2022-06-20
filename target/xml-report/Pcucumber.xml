@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.424">
+    <testcase classname="US1011 WebUniversity Window handle" name="TC16 Reusable Methods ile window Handle Testi" time="43">
+        <failure message="unexpected alert open: {Alert text : validation failed}&#10;  (Session info: chrome=102.0.5005.115): validation failed&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'LAPTOP-493JN1U3', ip: '192.168.2.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7eb41b5cf0635e092250c10b07e782ec, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Ferhat\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63298/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7eb41b5cf0635e092250c10b07e782ec" type="org.openqa.selenium.UnhandledAlertException">
+            <![CDATA[Given kullanici "WebUniversityUrl" sayfasina gider..........................passed
+And Login Portal'a  kadar asagi iner........................................passed
+And 2 saniye bekler.........................................................passed
+And Login Portal'a  tiklar..................................................passed
+Then acilan Diger window'a gecer............................................passed
+And "Mustafa" ve  "Donat" kutularina deger yazdirin.........................passed
+And WebUniversity Login butonuna basar......................................passed
+And 2 saniye bekler.........................................................passed
+And Popup'ta cikan yazinin "validation failed" oldugunu test eder...........failed
+Then Ok diyerek Popup'i kapatir.............................................skipped
+And Ilk sayfaya geri doner..................................................skipped
+And Ilk sayfaya donuldugunu test eder.......................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation failed}
+  (Session info: chrome=102.0.5005.115): validation failed
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-493JN1U3', ip: '192.168.2.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7eb41b5cf0635e092250c10b07e782ec, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Ferhat\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63298/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7eb41b5cf0635e092250c10b07e782ec
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:969)
+	at utilities.Driver.getDriver(Driver.java:52)
+	at stepdefinitions.WebUnivercityStepDefinition.popup_ta_cikan_yazinin_oldugunu_test_eder(WebUnivercityStepDefinition.java:49)
+	at ✽.Popup'ta cikan yazinin "validation failed" oldugunu test eder(file:///C:/Users/Ferhat/IdeaProjects/com.CucumberBatch44/src/test/resources/features/US1011_WebUniversity.feature:14)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
